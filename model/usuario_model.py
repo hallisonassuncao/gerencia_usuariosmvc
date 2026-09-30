@@ -5,7 +5,7 @@ class UsuarioModel:
         try:
             self.conexao = psycopg2.connect(
                 host="localhost",
-                database="usuariosbd",
+                database="usuariobd",
                 user="postgres",
                 password="alunocceia"
             )
